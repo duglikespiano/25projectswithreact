@@ -1,0 +1,35 @@
+# 25projectswithreact(jp)
+
+##### [한국어 버전은 이 곳을 클릭해주세요](README.md)
+
+##### [Click here for English version](README_EN.md)
+
+## - 目次 -
+
+1. 概要
+2. Project 目標
+3. 内容
+   </br>
+
+### 1. 概要
+
+- Project タイトル: 25projectswithreact
+- 関連 URL : https://www.youtube.com/watch?v=5ZdHfJVAY-s/
+- 期間 : 2024.07.16 - 進行中
+- 人員 : 1 人
+- 技術スタック : </br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+  <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+  </br>
+
+### 2. Project 目標
+
+1. React に慣れる事
+2. React Router に慣れる事
+   </br>
+
+### 3. 内容
