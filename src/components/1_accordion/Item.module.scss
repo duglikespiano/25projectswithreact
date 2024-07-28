@@ -1,0 +1,40 @@
+.item {
+	display: flex;
+	width: 600px;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #3894ab;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.item-button {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	background-color: beige;
+	border: none;
+	border-radius: 10px;
+	vertical-align: top;
+	align-self: center;
+	cursor: pointer;
+}
+
+.item-title {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.item-description-wrapper {
+	display: grid;
+	grid-template-rows: 1fr;
+	font-size: 20px;
+	margin-bottom: 10px;
+	transition: grid-template-rows 1s;
+	overflow: hidden;
+	&.active {
+		grid-template-rows: 1fr;
+	}
+}
