@@ -4,7 +4,8 @@ import { componentsInfo } from './componentsInfo';
 import styles from './Home.module.scss';
 
 export default function Home() {
-	const [components, setComponents] = useState(componentsInfo);
+	const [components] = useState(componentsInfo);
+
 	return (
 		<div className={styles['home']}>
 			<ul className={styles['components']}>

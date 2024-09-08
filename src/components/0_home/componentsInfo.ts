@@ -7,4 +7,8 @@ export const componentsInfo = [
 		name: 'random color generator',
 		path: '/2_random_color_generator',
 	},
+	{
+		name: 'star rating',
+		path: '/3_star_rating',
+	},
 ];
