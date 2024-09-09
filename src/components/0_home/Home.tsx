@@ -10,7 +10,7 @@ export default function Home() {
 		<div className={styles['home']}>
 			<ul className={styles['components']}>
 				{components.map((component) => (
-					<li className={styles['component']}>
+					<li className={styles['component']} key={component.id}>
 						<Link to={component.path}>{component.name}</Link>
 					</li>
 				))}
