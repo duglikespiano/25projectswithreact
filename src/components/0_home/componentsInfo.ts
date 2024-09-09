@@ -11,4 +11,8 @@ export const componentsInfo = [
 		name: 'star rating',
 		path: '/3_star_rating',
 	},
+	{
+		name: 'image slider',
+		path: '/4_image_slider',
+	},
 ];
