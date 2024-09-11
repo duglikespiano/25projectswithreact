@@ -4,6 +4,7 @@ import Accordion from './components/1_accordion/Accordion';
 import RandomColorGenerator from './components/2_random_color_generator/RandomColorGenerator';
 import StarRating from './components/3_star_rating/StarRating';
 import ImageSlider from './components/4_image_slider/imageSlider';
+import LoadMoreButton from './components/5_load_more_button/LoadMoreButton';
 
 const router = createBrowserRouter([
 	{
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
 	{
 		path: '/4_image_slider',
 		element: <ImageSlider />,
+	},
+	{
+		path: '/5_load_more_button',
+		element: <LoadMoreButton />,
 	},
 ]);
 

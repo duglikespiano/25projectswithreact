@@ -19,4 +19,9 @@ export const componentsInfo = [
 		name: 'image slider',
 		path: '/4_image_slider',
 	},
+	{
+		id: 5,
+		name: 'load more button',
+		path: '/5_load_more_button',
+	},
 ];

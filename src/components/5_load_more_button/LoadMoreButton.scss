@@ -1,0 +1,53 @@
+#load-more-button {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.products-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 22.5vw);
+		gap: 1rem;
+		margin: 0 auto;
+		margin-top: 1rem;
+		.card {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			border: 1px solid black;
+			.title-price {
+				.title {
+					font-size: 3rem;
+				}
+				.price {
+					font-size: 3rem;
+				}
+			}
+			.image {
+				width: 100%;
+				img {
+					width: 100%;
+					vertical-align: top;
+				}
+			}
+		}
+	}
+	.counter {
+		font-size: 10rem;
+		margin-top: 3rem;
+	}
+	button {
+		display: block;
+		width: 40rem;
+		height: 8rem;
+		font-size: 4rem;
+		background-color: yellowgreen;
+		border-radius: 1rem;
+		border: none;
+		margin: 0 auto;
+		margin-top: 2rem;
+		&:disabled {
+			background-color: gray;
+		}
+	}
+}
