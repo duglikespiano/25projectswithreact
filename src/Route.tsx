@@ -5,6 +5,7 @@ import RandomColorGenerator from './components/2_random_color_generator/RandomCo
 import StarRating from './components/3_star_rating/StarRating';
 import ImageSlider from './components/4_image_slider/imageSlider';
 import LoadMoreButton from './components/5_load_more_button/LoadMoreButton';
+import RecursiveNavigationMenu from './components/6_recursive_navigation_menu/RecursiveNavigationMenu';
 
 const router = createBrowserRouter([
 	{
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
 	{
 		path: '/5_load_more_button',
 		element: <LoadMoreButton />,
+	},
+	{
+		path: '/6_recursive_navigation_menu',
+		element: <RecursiveNavigationMenu />,
 	},
 ]);
 

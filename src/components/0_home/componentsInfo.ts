@@ -24,4 +24,9 @@ export const componentsInfo = [
 		name: 'load more button',
 		path: '/5_load_more_button',
 	},
+	{
+		id: 6,
+		name: 'recursive navigation menu',
+		path: '/6_recursive_navigation_menu',
+	},
 ];
