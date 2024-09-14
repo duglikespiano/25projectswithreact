@@ -40,3 +40,4 @@
 4. Image slider
 5. Load more button
 6. Recursive navigation menu(refactoring 必要)
+7. QR generator

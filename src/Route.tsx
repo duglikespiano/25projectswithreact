@@ -6,6 +6,7 @@ import StarRating from './components/3_star_rating/StarRating';
 import ImageSlider from './components/4_image_slider/imageSlider';
 import LoadMoreButton from './components/5_load_more_button/LoadMoreButton';
 import RecursiveNavigationMenu from './components/6_recursive_navigation_menu/RecursiveNavigationMenu';
+import QRCodeGenerator from './components/7_qr_generator/QRCodeGenerator';
 
 const router = createBrowserRouter([
 	{
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
 	{
 		path: '/6_recursive_navigation_menu',
 		element: <RecursiveNavigationMenu />,
+	},
+	{
+		path: '/7_qr_code_generator',
+		element: <QRCodeGenerator />,
 	},
 ]);
 

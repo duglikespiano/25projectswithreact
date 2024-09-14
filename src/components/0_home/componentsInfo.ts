@@ -29,4 +29,9 @@ export const componentsInfo = [
 		name: 'recursive navigation menu',
 		path: '/6_recursive_navigation_menu',
 	},
+	{
+		id: 7,
+		name: 'qr code generator',
+		path: '/7_qr_code_generator',
+	},
 ];
