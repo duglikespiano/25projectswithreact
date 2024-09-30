@@ -7,6 +7,7 @@ import ImageSlider from './components/4_image_slider/imageSlider';
 import LoadMoreButton from './components/5_load_more_button/LoadMoreButton';
 import RecursiveNavigationMenu from './components/6_recursive_navigation_menu/RecursiveNavigationMenu';
 import QRCodeGenerator from './components/7_qr_generator/QRCodeGenerator';
+import Darkmode from './components/8_darkmode/Darkmode';
 
 const router = createBrowserRouter([
 	{
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
 	{
 		path: '/7_qr_code_generator',
 		element: <QRCodeGenerator />,
+	},
+	{
+		path: '/8_darkmode',
+		element: <Darkmode />,
 	},
 ]);
 

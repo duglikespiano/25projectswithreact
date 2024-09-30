@@ -34,4 +34,9 @@ export const componentsInfo = [
 		name: 'qr code generator',
 		path: '/7_qr_code_generator',
 	},
+	{
+		id: 8,
+		name: 'dark mode',
+		path: '/8_darkmode',
+	},
 ];

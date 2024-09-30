@@ -41,3 +41,4 @@
 5. Load more button
 6. Recursive navigation menu(refactoring 必要)
 7. QR generator
+8. Darkmode
