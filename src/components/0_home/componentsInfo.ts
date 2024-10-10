@@ -40,3 +40,11 @@ export const componentsInfo = [
 		path: '/8_darkmode',
 	},
 ];
+
+export const updateHexColor = () => {
+	const RGBArray = [];
+	for (let i = 0; i < 3; i++) {
+		RGBArray.push(Math.floor(Math.random() * 256));
+	}
+	return `rgb(${RGBArray.join(',')})`;
+};
