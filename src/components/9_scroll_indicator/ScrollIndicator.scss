@@ -1,0 +1,38 @@
+#ScrollIndicator {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	font-size: 3rem;
+
+	.top-container {
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		text-align: center;
+		.scroll-progress-tacking-container {
+			width: 100%;
+			height: 3rem;
+			background-color: #cccccc;
+			.current-progress-bar {
+				height: 100%;
+				background-color: #267126;
+			}
+		}
+	}
+
+	.data-container {
+		margin-top: 3rem;
+		text-align: center;
+		h1 {
+			font-size: 5rem;
+			margin-bottom: 2rem;
+		}
+		.item {
+			font-size: 3rem;
+		}
+	}
+}

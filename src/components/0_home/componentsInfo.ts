@@ -39,6 +39,11 @@ export const componentsInfo = [
 		name: 'dark mode',
 		path: '/8_darkmode',
 	},
+	{
+		id: 9,
+		name: 'scroll indicator',
+		path: '/9_scroll_indicator',
+	},
 ];
 
 export const updateHexColor = () => {
