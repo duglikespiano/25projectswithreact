@@ -9,6 +9,7 @@ import RecursiveNavigationMenu from './components/6_recursive_navigation_menu/Re
 import QRCodeGenerator from './components/7_qr_generator/QRCodeGenerator';
 import Darkmode from './components/8_darkmode/Darkmode';
 import ScrollIndicator from './components/9_scroll_indicator/ScrollIndicator';
+import Tabs from './components/10_tabs/Tabs';
 
 const router = createBrowserRouter([
 	{
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
 	{
 		path: '/9_scroll_indicator',
 		element: <ScrollIndicator />,
+	},
+	{
+		path: '/10_Tabs',
+		element: <Tabs />,
 	},
 ]);
 

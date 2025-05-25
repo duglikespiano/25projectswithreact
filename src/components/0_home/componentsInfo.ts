@@ -44,6 +44,11 @@ export const componentsInfo = [
 		name: 'scroll indicator',
 		path: '/9_scroll_indicator',
 	},
+	{
+		id: 10,
+		name: 'tabs',
+		path: '/10_tabs',
+	},
 ];
 
 export const updateHexColor = () => {

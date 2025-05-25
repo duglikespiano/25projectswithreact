@@ -42,3 +42,5 @@
 6. Recursive navigation menu(need to be refactored)
 7. QR generator
 8. Darkmode
+9. Scroll indicator
+10. Tabs
