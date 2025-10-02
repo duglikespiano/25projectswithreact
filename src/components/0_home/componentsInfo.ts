@@ -49,6 +49,11 @@ export const componentsInfo = [
 		name: 'tabs',
 		path: '/10_tabs',
 	},
+	{
+		id: 11,
+		name: 'modal',
+		path: '/11_modal',
+	},
 ];
 
 export const updateHexColor = () => {

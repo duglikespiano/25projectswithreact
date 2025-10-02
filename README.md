@@ -44,3 +44,4 @@
 8. Darkmode
 9. Scroll indicator
 10. Tabs
+11. Modal
