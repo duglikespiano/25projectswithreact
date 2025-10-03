@@ -45,3 +45,4 @@
 9. Scroll indicator
 10. Tabs
 11. Modal
+12. Github profile finder

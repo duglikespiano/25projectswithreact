@@ -11,6 +11,7 @@ import Darkmode from './components/8_darkmode/Darkmode';
 import ScrollIndicator from './components/9_scroll_indicator/ScrollIndicator';
 import Tabs from './components/10_tabs/Tabs';
 import Modal from './components/11_modal/Modal';
+import GithubProfileFinder from './components/12_github_profile_finder/GithubProfileFinder';
 
 const router = createBrowserRouter([
 	{
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
 	{
 		path: '/11_Modal',
 		element: <Modal />,
+	},
+	{
+		path: '/12_github_profile_finder',
+		element: <GithubProfileFinder />,
 	},
 ]);
 

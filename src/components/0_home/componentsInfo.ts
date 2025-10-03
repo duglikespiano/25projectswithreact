@@ -54,6 +54,11 @@ export const componentsInfo = [
 		name: 'modal',
 		path: '/11_modal',
 	},
+	{
+		id: 12,
+		name: 'github profile finder',
+		path: '/12_github_profile_finder',
+	},
 ];
 
 export const updateHexColor = () => {
