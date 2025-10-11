@@ -12,6 +12,7 @@ import ScrollIndicator from './components/9_scroll_indicator/ScrollIndicator';
 import Tabs from './components/10_tabs/Tabs';
 import Modal from './components/11_modal/Modal';
 import GithubProfileFinder from './components/12_github_profile_finder/GithubProfileFinder';
+import Autocomplete from './components/13_autocomplete/Autocomplete';
 
 const router = createBrowserRouter([
 	{
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
 	{
 		path: '/12_github_profile_finder',
 		element: <GithubProfileFinder />,
+	},
+	{
+		path: '/13_autocomplete',
+		element: <Autocomplete />,
 	},
 ]);
 

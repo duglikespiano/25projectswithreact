@@ -59,6 +59,11 @@ export const componentsInfo = [
 		name: 'github profile finder',
 		path: '/12_github_profile_finder',
 	},
+	{
+		id: 13,
+		name: 'autocomplete',
+		path: '/13_autocomplete',
+	},
 ];
 
 export const updateHexColor = () => {
