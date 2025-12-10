@@ -64,6 +64,11 @@ export const componentsInfo = [
 		name: 'autocomplete',
 		path: '/13_autocomplete',
 	},
+	{
+		id: 14,
+		name: 'scroll to top and bottom',
+		path: '/14_scroll_to_top_and_bottom',
+	},
 ];
 
 export const updateHexColor = () => {
