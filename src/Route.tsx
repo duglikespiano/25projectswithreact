@@ -14,6 +14,7 @@ import Modal from './components/11_modal/Modal';
 import GithubProfileFinder from './components/12_github_profile_finder/GithubProfileFinder';
 import Autocomplete from './components/13_autocomplete/Autocomplete';
 import ScrollToTopAndBottom from './components/14_scroll_to_top_and_bottom/ScrollToTopAndBottom';
+import ScrollToParticularSection from './components/15_scroll_to_particular_section/ScrollToParticularSection';
 
 const router = createBrowserRouter([
 	{
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
 	{
 		path: '/14_scroll_to_top_and_bottom',
 		element: <ScrollToTopAndBottom />,
+	},
+	{
+		path: '/15_scroll_to_particular_section',
+		element: <ScrollToParticularSection />,
 	},
 ]);
 

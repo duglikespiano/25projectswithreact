@@ -69,6 +69,11 @@ export const componentsInfo = [
 		name: 'scroll to top and bottom',
 		path: '/14_scroll_to_top_and_bottom',
 	},
+	{
+		id: 15,
+		name: 'scroll to particular section',
+		path: '/15_scroll_to_particular_section',
+	},
 ];
 
 export const updateHexColor = () => {
