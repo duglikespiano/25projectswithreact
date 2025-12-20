@@ -74,6 +74,11 @@ export const componentsInfo = [
 		name: 'scroll to particular section',
 		path: '/15_scroll_to_particular_section',
 	},
+	{
+		id: 16,
+		name: 'custom hook',
+		path: '/16_custom_hook',
+	},
 ];
 
 export const updateHexColor = () => {
