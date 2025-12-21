@@ -79,6 +79,11 @@ export const componentsInfo = [
 		name: 'custom hook',
 		path: '/16_custom_hook',
 	},
+	{
+		id: 17,
+		name: 'custom hook2',
+		path: '/17_custom_hook2',
+	},
 ];
 
 export const updateHexColor = () => {
