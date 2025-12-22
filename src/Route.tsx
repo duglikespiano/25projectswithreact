@@ -17,6 +17,7 @@ import ScrollToTopAndBottom from './components/14_scroll_to_top_and_bottom/Scrol
 import ScrollToParticularSection from './components/15_scroll_to_particular_section/ScrollToParticularSection';
 import CustomHook from './components/16_custom_hook/CustomHook';
 import CustomHook2 from './components/17_custom_hook2/CustomHook2';
+import CustomHook3 from './components/18_custom_hook3/CustomHook3';
 
 const router = createBrowserRouter([
 	{
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
 	{
 		path: '/17_custom_hook2',
 		element: <CustomHook2 />,
+	},
+	{
+		path: '/18_custom_hook3',
+		element: <CustomHook3 />,
 	},
 ]);
 
