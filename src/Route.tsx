@@ -18,6 +18,7 @@ import ScrollToParticularSection from './components/15_scroll_to_particular_sect
 import CustomHook from './components/16_custom_hook/CustomHook';
 import CustomHook2 from './components/17_custom_hook2/CustomHook2';
 import CustomHook3 from './components/18_custom_hook3/CustomHook3';
+import WeatherApp from './components/19_weather_app/WeatherApp';
 
 const router = createBrowserRouter([
 	{
@@ -95,6 +96,10 @@ const router = createBrowserRouter([
 	{
 		path: '/18_custom_hook3',
 		element: <CustomHook3 />,
+	},
+	{
+		path: '/19_weather_app',
+		element: <WeatherApp />,
 	},
 ]);
 

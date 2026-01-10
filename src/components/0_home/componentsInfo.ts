@@ -89,6 +89,11 @@ export const componentsInfo = [
 		name: 'custom hook3',
 		path: '/18_custom_hook3',
 	},
+	{
+		id: 19,
+		name: 'weather app',
+		path: '/19_weather_app',
+	},
 ];
 
 export const updateHexColor = () => {
