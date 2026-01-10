@@ -1,21 +1,6 @@
 import MenuItem from './MenuItem';
 
-type ListItem = {
-	label: string;
-	to: string;
-	children?: [
-		{
-			label: string;
-			to: string;
-		}
-	];
-};
-
-type MenuListProps = {
-	list: ListItem[];
-};
-
-export default function MenuList({ list = [] }: MenuListProps) {
+export default function MenuList({ list = [] }) {
 	return (
 		<ul className="menu-list">
 			{list && list.length
