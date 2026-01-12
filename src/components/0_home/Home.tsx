@@ -8,6 +8,11 @@ export default function Home() {
 
 	return (
 		<div className={styles['home']}>
+			<h1>
+				25projects with react
+				<br />
+				<span>(in progress)</span>
+			</h1>
 			<ul className={styles['components']}>
 				{components.map((component) => (
 					<li className={styles['component']} key={component.id} style={{ backgroundColor: updateHexColor() }}>
