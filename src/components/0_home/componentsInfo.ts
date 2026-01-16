@@ -94,6 +94,11 @@ export const componentsInfo = [
 		name: 'weather app',
 		path: '/19_weather_app',
 	},
+	{
+		id: 20,
+		name: 'tic tac toe',
+		path: '/20_tic_tac_toe',
+	},
 ];
 
 export const updateHexColor = () => {

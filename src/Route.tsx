@@ -19,6 +19,7 @@ import CustomHook from './components/16_custom_hook/CustomHook';
 import CustomHook2 from './components/17_custom_hook2/CustomHook2';
 import CustomHook3 from './components/18_custom_hook3/CustomHook3';
 import WeatherApp from './components/19_weather_app/WeatherApp';
+import TicTacToe from './components/20_tic_tac_toe/TicTacToe';
 
 const router = createBrowserRouter([
 	{
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
 	{
 		path: '/19_weather_app',
 		element: <WeatherApp />,
+	},
+	{
+		path: '/20_tic_tac_toe',
+		element: <TicTacToe />,
 	},
 ]);
 
