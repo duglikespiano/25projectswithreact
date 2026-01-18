@@ -15,7 +15,7 @@
 
 - 프로젝트명 : 25projectswithreact
 - 관련URL : https://www.youtube.com/watch?v=5ZdHfJVAY-s/
-- 기간 : 2024.07.16 - 진행중
+- 기간 : 2024.07.16 - 2026.01.18
 - 인원 : 1인
 - 기술스택 : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">

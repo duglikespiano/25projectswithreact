@@ -15,7 +15,7 @@
 
 - Project タイトル: 25projectswithreact
 - 関連 URL : https://www.youtube.com/watch?v=5ZdHfJVAY-s/
-- 期間 : 2024.07.16 - 進行中
+- 期間 : 2024.07.16 - 2026.01.18
 - 人員 : 1 人
 - 技術スタック : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">

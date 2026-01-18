@@ -15,7 +15,7 @@
 
 - Project title : 25projectswithreact
 - Related URL : https://www.youtube.com/watch?v=5ZdHfJVAY-s/
-- Period : July 16 2024 - In progress
+- Period : July 16 2024 - Jan 18 2026
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
