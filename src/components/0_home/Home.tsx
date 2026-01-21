@@ -1,10 +1,10 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { componentsInfo, updateHexColor } from './componentsInfo';
 import styles from './Home.module.scss';
 
 export default function Home() {
-	const [components] = useState(componentsInfo);
+	// componentsInfo is now automatically generated from directory structure
+	const components = componentsInfo;
 
 	return (
 		<div className={styles['home']}>
